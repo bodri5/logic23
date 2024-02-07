@@ -42,6 +42,6 @@ if you want to hide it from the other students.):
 git config --global user.name "Your Name"
 git config --global user.email "your@email.address"
 
-git clone gitt-pte:algo23/bodri
-git clone gitt-pte:algo23/USERNAME
-git clone gitt-pte:algo23/common
+git clone gitt-pte:algo24/bodri
+git clone gitt-pte:algo24/USERNAME
+git clone gitt-pte:algo24/common

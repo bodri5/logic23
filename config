@@ -3,4 +3,4 @@ Host gitt-pte
   Hostname gitt.ttk.pte.hu
   Port 22
   User git
-  Identityfile ~/.ssh/<your favourite USERNAME>
+  Identityfile ~/.ssh/USERNAME
