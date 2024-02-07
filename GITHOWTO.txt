@@ -1,0 +1,47 @@
+
+  How to access the git server:
+
+
+1. Install git from
+   https://git-scm.com
+
+2. Start a git-bash-shell (or terminal on Mac and Linux)
+
+3. Create a directory named .ssh in your home directory:
+
+cd
+mkdir .ssh
+
+4.  Copy the file config from this github page to the .ssh directory.
+Edit the file, insert your usernaem to the appropriate place
+
+5. generate a key:
+
+cd .ssh
+ssh-keygen -f USERNAME
+
+This will create two files in .ssh, USERNAME and USERNAME.pub, where
+USERNAME is your favourite user name.
+
+6. Send the file USERNAME.pub to me.
+
+7. Once, I installed your key, check if it works:
+
+ssh gitt-pte
+
+
+8. Move to a directory dedicated to this class. For example:
+
+cd
+mkdir algoclass
+cd algoclass
+
+9. Initialize your repositories (You can write a fake email address,
+if you want to hide it from the other students.):
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.address"
+
+git clone gitt-pte:algo23/bodri
+git clone gitt-pte:algo23/USERNAME
+git clone gitt-pte:algo23/common
